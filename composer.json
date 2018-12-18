@@ -1,0 +1,15 @@
+{
+    "name": "alpa/sockets",
+    "description": "Shell for PHP Sockets Extensions",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Alpa\\EntityDetails\\":"../EntityDetails",
+			"Alpa\\PhpDump\\":"../PhpDump",
+			"Alpa\\Sockets\\": "src/Sockets",
+			"Alpa\\Classes\\": "src/Classes"
+		}
+    }
+}
